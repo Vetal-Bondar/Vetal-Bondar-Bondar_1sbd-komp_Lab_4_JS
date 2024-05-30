@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab_4_task_2</title>
+<link rel="stylesheet" type="text/css" href="./style/task2.css">
+<script src="./scripts/task2.js"></script>
+</head>
+<body>
+    <input type="password" id="passwordInput" oninput="checkPasswordStrength(this.value)" placeholder="Пароль">
+    <div class="strength-indicator">
+        <div> 
+            <div class="bullet" id="letterBullet"></div>
+            <div class="label">Літери</div>
+
+        </div>
+        
+        <div class="bullet" id="specialCharBullet"></div>
+        <div class="label">Спеціальні символи</div>
+        <div class="bullet" id="numberBullet"></div>
+        <div class="label">Цифри</div>
+        <div class="bullet" id="lengthBullet"></div>
+        <div class="label">Більше 8 символів</div>
+    </div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,71 @@
+body{
+    font-size: 50px;
+    margin: 0;
+    background-color: #2C0D0D;
+    }
+    input{
+    font-size: 45px;
+     width: 80px;
+     height: 80px;
+     border: 1px;
+     border-radius: 2px;
+    }
+    .A{
+        text-align: center;
+        margin-left: 30%;
+        color: white;
+    }
+    .B{
+        text-align: center;
+        margin-left: 13%;
+        color: white;
+    }
+    .C{
+        text-align: center;
+        margin-left: 13%;
+        color: white;
+    }
+    .pole{
+        display: flex;
+    }
+    .whiterama{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        margin: 30px;
+        margin-top: 15px;
+        width: 95%;
+        height: 500px;
+        background-color: azure;
+    }
+    .red{
+        width: 200px;
+        height: 500px;
+        margin-left: 15%;
+        background-color: red;
+    }
+    .grean{
+        width: 14px;
+        height: 50px;
+        margin-left: 15%;
+        background-color: rgb(0, 255, 42);
+    }
+    .blues{
+        width: 14px;
+        height: 50px;
+        margin-left: 15%;
+        background-color: rgb(0, 17, 255);
+    }
+    .myChart{
+     margin-left: 50%;
+     width:100%;
+     max-width:500px
+    }
+
+    .container {
+        width: 80%;
+        height: 80%;
+    max-width: 1200px;
+    max-width: 1000px;
+    }
